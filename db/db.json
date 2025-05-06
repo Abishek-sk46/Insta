@@ -1,0 +1,47 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "user": {
+          "id": 101,
+          "username": "john_doe",
+          "profile_pic": "src/assets/profile-1.jpg"
+        },
+        "image": "src/assets/post-1.jpg",
+        "caption": "Beautiful sunset 🌅 #Nature",
+        "likes": 120,
+        "comments": [
+          {
+            "user": "alice_wonder",
+            "comment": "Wow! Amazing shot! 📸"
+          },
+          {
+            "user": "mark_92",
+            "comment": "Where is this place?"
+          }
+        ],
+        "timestamp": "2025-02-11T14:30:00Z"
+      },
+      {
+        "id": 2,
+        "user": {
+          "id": 102,
+          "username": "emma_grace",
+          "profile_pic": "src/assets/profile-2.jpg"
+        },
+        "image": "src/assets/post-2.avif",
+        "caption": "Morning coffee vibes ☕✨",
+        "likes": 95,
+        "comments": [
+          {
+            "user": "daniel_x",
+            "comment": "I need one too!"
+          }
+        ],
+        "timestamp": "2025-02-12T09:00:00Z"
+      }
+    ]
+  }
+  
+
+ 
