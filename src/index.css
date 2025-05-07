@@ -15,6 +15,7 @@
 
 .story{
   height: 60px;
+  padding: 10px;
 }
 
 .dp{
@@ -29,4 +30,27 @@
   width:300px;
   height:200px;
   margin: 0 auto;
+}
+
+.suggestions h5{
+  font-size: 16px
+}
+
+.suggestions .dp{
+  margin-top: 0px !important;
+}
+
+.gradient-border{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(45deg,#ff00ff ,#ff6600, #ffcc00);
+}
+
+.story-dp{
+  width: 40px;
+  height: 40px;
 }

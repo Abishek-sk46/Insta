@@ -40,7 +40,61 @@
         ],
         "timestamp": "2025-02-12T09:00:00Z"
       }
+    ],
+    "profile":{
+      "id": 101,
+      "username": "john_doe",
+      "profile_pic": "src/assets/profile-1.jpg"
+      
+    },
+    "suggestions": [
+      {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "src/assets/profile-1.jpg"
+      },
+      {
+        "id": 102,
+        "username": "sarah_connor",
+        "profile_pic": "src/assets/profile-2.jpg"
+      },
+      {
+        "id": 103,
+        "username": "mike_jones",
+        "profile_pic": "src/assets/profile-2.jpg"
+      },
+      {
+        "id": 104,
+        "username": "luke_skywalker",
+        "profile_pic": "src/assets/profile-1.jpg"
+      }
+    ],
+
+    "story": [
+      {
+        "id": "1",
+        "user": {
+          "id": 101,
+          "username": "john_doe",
+          "profile_pic": "src/assets/profile-1.jpg"
+        },
+        "image": "/src/assets/Insta-logo.png"
+        
+      },
+      {
+        "id": "2",
+        "user": {
+          "id": 102,
+          "username": "emma_grace",
+          "profile_pic": "src/assets/profile-2.jpg"
+        },
+        "image": "/src/assets/post-2.avif"
+      }
     ]
+
+
+
+
   }
   
 
